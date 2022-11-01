@@ -9,7 +9,6 @@ contract Yashvi{
     uint food;
     uint transport;
     uint stay;
-    uint balance;
 
     function getExpenses(uint _food, uint _transport, uint _stay) public {
         food = _food;
